@@ -65,5 +65,6 @@ There is a lot of work still to be done. Some are a must, and some are for my ex
 4. Parallax "3D" background -- multiple layers (tree canopy? skyscrapers?)
 5. Front page: Hero-esque front page before scrolling down to my.Self page
 6. my.Self: Better flat icon for representing moi
+7. Lightbox effect + Grid-Gallery on project photos
 
 
