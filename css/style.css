@@ -292,42 +292,42 @@ footer .attribution {
 
 /* Icons ---------------------------------- */
 #name{
-	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-image: url(/img/name.svg);
 	background-size: 20px 20px;
 	background-position: 8px 10px;
 	background-repeat: no-repeat;
 }
 
 #name:focus{
-	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-image: url(/img/name.svg);
 	background-size: 25px 25px;
   	background-position: 8px 10px;
 	background-repeat: no-repeat;
 }
 
 #email{
-	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-image: url(/img/email.svg);
 	background-size: 20px 20px;
 	background-position: 8px 10px;
 	background-repeat: no-repeat;
 }
 
 #email:focus{
-	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-image: url(/img/email.svg);
 	background-size: 25px 25px;
   	background-position: 8px 10px;
 	background-repeat: no-repeat;
 }
 
 #comment{
-	background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+	background-image: url(/img/comment.svg);
 	background-size: 20px 20px;
 	background-position: 8px 10px;
 	background-repeat: no-repeat;
 }
 
 #comment:focus{
-	background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+	background-image: url(/img/comment.svg);
 	background-size: 25px 25px;
   	background-position: 8px 10px;
 	background-repeat: no-repeat;
