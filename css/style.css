@@ -204,23 +204,29 @@ footer .attribution {
 }
 
 #work {
-    border: solid 3vw #46B9FA;
+	border: solid 3vw #46B9FA;
+	overflow: hidden;
 }
 
-.project-one img {
-	height: 40vw;
-	width: 60vw;
-	max-height: 300px;
-	max-width: 450px;
-	margin: 2vh;
-	border: 6px solid #46B9FA;
+@media (min-width:530px) and (max-width: 910px) {
+	.work-container img {
+		max-height: 100px;
+		max-width: 150px;
+	}
 }
 
-.project-two img {
+.work-container {
+	margin-top: 5vh;
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.work-container img {
 	height: 40vw;
 	width: 60vw;
-	max-height: 300px;
-	max-width: 450px;
+	max-height: 250px;
+	max-width: 375px;
 	margin: 2vh;
 	border: 6px solid #46B9FA;
 }
