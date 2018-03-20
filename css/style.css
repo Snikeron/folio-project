@@ -145,7 +145,7 @@ footer .attribution {
 	text-align: center;
 	height: 100vh;
 	margin: 1vh;
-	padding: 4vw;
+	padding: 15px;
 }
 
 @media (min-width: 510px) {
@@ -247,6 +247,7 @@ footer .attribution {
 	background-color:rgba(72,72,72,0.4);
 	padding: 2vh;
 	width: 70vw;
+	border-radius: 7px;
   	-moz-border-radius: 7px;
 	-webkit-border-radius: 7px;
 	margin: auto;
