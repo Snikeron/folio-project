@@ -35,21 +35,35 @@ My Figma design board can be accessed here:
 https://www.figma.com/file/Fu4QTE9mt8yFBOMv0RjdjK3w/Portfolio-Design
 
 
-## Development 
-### Process
+## Development Process
 While getting the design right in Figma took me about 3 days, translating my design to the browser via code was a different ballgame altogether. 
 
 I started with sectioning my page using ```<section>``` tags and setting up ```<div>``` tags where I knew content was going to be placed.
 
-The navigation bar took a long time to figure out as it was my first attempt making one from scratch. There was a lot of trial and error involved
-
+I knew the navigation bar would pose a significant challenge as I had never made one from scratch. I also chose to work on my site using just basic CSS3 and Flexbox where necessary, as I wanted to practice and be familiar with the basics before moving on to CSS Grid.
 
 ### Challenges
-I realised quickly that while I had spent the week before starting on this project learning about CSS, I had done very little practice on actually writing CSS from scratch.
+Once I started coding, I realised quickly that while I had spent the week before starting on this project learning about CSS, I had done very little practice on actually writing CSS from scratch.
 
 This resulted in a lot of time spent researching and understanding various elements and behaviours of CSS I wanted to implement, as well as a lot of trial and error ensuring what I had designed rendered correctly in the browser. 
 
+The process of trial and error also had me constantly going back to change my design sketch.
+
+### Changes
 As time went on however, I realised that my initial design was too simplistic visually, and relied too much on CSS "magic" that was taking me a long time to learn. 
 
 I therefore decided to reject the initial design I was coding on the day leading up to the project deadline and re-designed the page layout, starting from scratch again.
+
+Although it was tiring and incredibly draining with much sleep lost over 2 days, the renewed motivation to complete work on a new design and practice more basic CSS and Flexbox allowed me to push through and deliver the MVP.
+
+## What Next?
+There is a lot of work still to be done. Some are a must, and some are for my experimentation and learning. On my list of to-dos, are:
+1. Flexbox across all sections for mobile device landscape compatibility
+
+2. my.Work: Animated program language symbols on mouse-hover
+3. my.Work: Download link for CV (if necessary?)
+4. Parallax "3D" background -- multiple layers (tree canopy? skyscrapers?)
+5. Front page: Hero-esque front page before scrolling down to my.Self page
+6. my.Self: Better flat icon for representing moi
+
 
