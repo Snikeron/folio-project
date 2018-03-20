@@ -1,0 +1,375 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+.nav-header {
+	min-height: 100%;
+	width: 100%;
+}
+
+body {
+	background:#f9f5e7;
+}
+
+header {
+	padding: 2vh;
+	background:#00315f;
+	color:#f0f1f5;
+	text-align: center;
+}
+
+header img {
+	margin-top:4px;
+	max-width: 70%;
+}
+
+.navigation-bar {
+	background:#ff7d7e;
+	overflow-x: hidden;
+}
+
+nav {
+	height:40px;
+	width:560px; 
+	display:block;
+	margin:0 auto;
+	text-align: center;
+}
+
+nav a {
+	display:block;
+	text-decoration: none;
+	letter-spacing: 1px;
+	font-family: 'Rosario', monospace;
+	font-weight: bold;
+	font-size:13pt;
+	color:#00315f;
+}
+
+nav a:hover {
+	background:#223433;
+	color:#f0f1f5;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav ul li {
+	float: left;
+	width: 140px;
+	height: 40px;
+	line-height: 40px;
+	background:#ff7d7e;
+}
+
+nav ul ul li {
+	position: relative;
+	display: none;
+}
+
+.dropdown-nav {
+	position: absolute;
+	display:none;
+}
+
+nav ul li:hover ul li {
+	display: block;
+	animation: navmenu 500ms forwards;
+}
+
+@keyframes navmenu {
+	0%{
+		opacity:0;
+		top:5px;
+	}
+	100%{
+		opacity:1;
+		top:0px;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	.horizontal-nav {
+        position: static;
+        display: none;
+    }
+    li {
+        margin-bottom: 1px;
+    }
+    ul li, li a {
+		width: 100%;
+	}
+	.dropdown-nav {
+		display: block;
+	}
+}
+
+nav ul ul li ul {
+	display:block;
+	position:absolute;
+	width:140px;
+	left:140px;
+	top:0px;
+}
+
+footer {
+	border-top: 0.5vh solid #ff7d7e;
+	position: relative;
+	bottom: 0px;
+	padding: 20px;
+	width: 100%;
+	text-align: center;
+	background:#00315f;
+	color:#fff;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 11pt;
+	text-transform: uppercase;
+}
+
+footer .attribution {
+	margin-top: 2px;
+	font-size:5pt;
+	text-transform: lowercase;
+}
+
+.frame {
+    color: #00315f;
+    font-family: 'Rosario';
+    font-size: 20px;
+    letter-spacing: 0.03em;
+	text-align: center;
+	height: 100vh;
+	margin: 1vh;
+	padding: 4vw;
+}
+
+.divider {
+    position: relative;
+    height: 3vh;
+}
+
+#about {
+	border: solid 3vw #5285b1;
+}
+
+.page-logo {
+	margin-top: 2vh;
+	margin-bottom: 5vh;
+}
+
+.profile-photo {
+	margin-bottom: 4vh;
+}
+
+.profile-photo img {
+	width: 30vw;
+	height: 30vw;
+	border-radius: 50%;
+	border: #5285b1 5px solid;
+	padding: 5px;
+}
+
+#skills {
+    border: solid 3vw #F05D5E;
+}
+
+.skills-list {
+	text-align: left;
+	margin-left: 10vw;
+	margin-top: 1vh;
+}
+
+.skills-list li {
+	list-style: none;
+	line-height: 6vh;
+	text-shadow: #78a3c9 0.5px 0.5px;
+  }
+
+.skills-list span:hover {
+	border-bottom: solid 4px #F05D5E;
+	display: inline;
+	padding-bottom: 2px;
+	cursor: pointer;
+}
+
+#work {
+    border: solid 3vw #46B9FA;
+}
+
+.project-one img {
+	height: 40vw;
+	width: 60vw;
+	max-height: 300px;
+	max-width: 450px;
+	margin: 2vh;
+	border: 6px solid #46B9FA;
+}
+
+.project-two img {
+	height: 40vw;
+	width: 60vw;
+	max-height: 300px;
+	max-width: 450px;
+	margin: 2vh;
+	border: 6px solid #46B9FA;
+}
+
+#contact {
+    border: solid 3vw #0ac940;
+}
+
+.social-media-icons {
+	margin-bottom: 5vh;
+}
+.social-media-icons img {
+	height: 10vw;
+	width: 10vw;
+	margin: 0 2vw 0 2vw;
+}
+
+#form-main{
+	width:100%;
+	margin-bottom: 1vh;
+}
+
+#form-div {
+	background-color:rgba(72,72,72,0.4);
+	padding: 2vh;
+	width: 70vw;
+  	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	margin: auto;
+}
+
+.feedback-input {
+	color:#3c3c3c;
+	font-family: Helvetica, Arial, sans-serif;
+  	font-weight:500;
+	font-size: 16px;
+	border-radius: 0;
+	line-height: 22px;
+	background-color: #fbfbfb;
+	padding: 10px 10px 10px 45px;
+	margin-bottom: 10px;
+	width:100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+  	border: 3px solid rgba(0,0,0,0);
+}
+
+.feedback-input:focus{
+	background: #fff;
+	box-shadow: 0;
+	border: 3px solid #3498db;
+	color: #3498db;
+	outline: none;
+}
+
+.focused{
+	color:#30aed6;
+	border:#30aed6 solid 3px;
+}
+
+/* Icons ---------------------------------- */
+#name{
+	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-size: 20px 20px;
+	background-position: 8px 10px;
+	background-repeat: no-repeat;
+}
+
+#name:focus{
+	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-size: 25px 25px;
+  	background-position: 8px 10px;
+	background-repeat: no-repeat;
+}
+
+#email{
+	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-size: 20px 20px;
+	background-position: 8px 10px;
+	background-repeat: no-repeat;
+}
+
+#email:focus{
+	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-size: 25px 25px;
+  	background-position: 8px 10px;
+	background-repeat: no-repeat;
+}
+
+#comment{
+	background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+	background-size: 20px 20px;
+	background-position: 8px 10px;
+	background-repeat: no-repeat;
+}
+
+#comment:focus{
+	background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+	background-size: 25px 25px;
+  	background-position: 8px 10px;
+	background-repeat: no-repeat;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    line-height: 150%;
+    resize:vertical;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+	background-color:white;
+}
+
+#button-green{
+	font-family: 'Rosario', sans-serif;
+	float: left;
+	width: 100%;
+	border: #00315f solid 4px;
+	cursor:pointer;
+	background-color: #0ac940;
+	color: #00315f;
+	font-size:24px;
+	padding-top:22px;
+	padding-bottom:22px;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	transition: all 0.3s;
+  	font-weight:600;
+}
+
+#button-green:hover{
+	background-color: rgba(0,0,0,0);
+	color: #fefefe;
+}
+	
+.submit:hover {
+	color: #3498db;
+}
+	
+.ease {
+	width: 0px;
+	height: 80px;
+	background-color: #fbfbfb;
+	-webkit-transition: .3s ease;
+	-moz-transition: .3s ease;
+	-o-transition: .3s ease;
+	-ms-transition: .3s ease;
+	transition: .3s ease;
+}
+
+.submit:hover .ease{
+  width:100%;
+  background-color:#00315f;
+}

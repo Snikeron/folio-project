@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Rosario|Lato" rel="stylesheet">       
+        <link rel="icon" type="image/ico" href="/img/favicon.ico">		
+        <title>Maurice Yong | Portfolio</title>
+	</head>
+	<body>
+		<div class="nav-header">
+			<header>               
+                <img src="img/logo1.svg">
+			</header>
+			<div class="navigation-bar">
+				<nav>                   
+					<ul>
+                        <div class="dropdown-nav">
+                            <li><a href="#">my.Menu</a>
+                                <ul>
+                                    <li><a href="#about">my.Self</a></li>
+                                    <li><a href="#skills">my.Skills</a></li>
+                                    <li><a href="#work">my.Work</a></li>
+                                    <li><a href="#contact">my.Contact</a></li>                                                                                                                                                                           
+                                </ul>
+                            </li>  
+                        </div>
+
+                        <div class="horizontal-nav">
+                            <li><a href="#about">my.Self</a></li>
+    						<li><a href="#skills">my.Skills</a></li>
+    						<li><a href="#work">my.Work</a></li>
+    						<li><a href="#contact">my.Contact</a></li> 
+                        </div>
+					</ul>
+				</nav>
+			</div>
+        </div>	
+
+        <section id="about" class="frame">
+            
+            <img src="/img/myself.svg" alt="myself logo" class="page-logo">
+                
+            <div class="self-text">
+                <div class="profile-photo">
+                    <img src="/img/programmer.svg" alt="programmer avatar">
+                </div>
+                <p>Hi! I'm Maurice, a Web Developer based in Melbourne, Australia. </p>
+                <br />
+                <p>I am an adventurous spirit, constantly on the hunt for the next challenge to overcome. </p>
+                <br />
+                <p>I enjoy coding, teaching, hiking, running, travelling, volunteering, and playing music. </p>  
+                <br />
+                <p>I have been a Fireman, a Biology Tutor, almost became an Air Traffic Controller, and I now run a music school with my partner.</p>     
+            </div>  
+
+        </section>
+        
+        <div class="divider">
+    
+        </div>
+            
+            <div class="divider">
+                
+            </div>
+            <section id="skills" class="frame">
+                <img src="/img/myskills.svg" alt="skills logo" class="page-logo">
+
+                <div class="skills-list">
+                    <ul>
+                        <li><span>HTML</span></li>
+                        <li><span>CSS</span></li>
+                        <li><span>Javascript</span></li>
+                        <li><span>Express.js</span></li>
+                        <li><span>React.js</span></li>
+                        <li><span>Node.js</span></li>
+                        <li><span>Ruby</span></li>
+                        <li><span>Ruby on Rails</span></li>
+                        <li><span>MongoDB</span></li>
+                        <li><span>SQL</span></li>
+                        <li><span>Python</span></li>
+                        <li>...and more to come.</li>
+                    </ul>
+                </div>
+            </section>
+            <div class="divider">
+                
+            </div>
+        
+            <section id="work" class="frame">
+                        
+                <img src="/img/mywork.svg" alt="work logo" class="page-logo">
+                    <div class="project-one">
+                        <p>Ruby Terminal App:</p>
+                        <p>Hangman Edumacator</p>
+                        <img src="/img/hangman.png" alt="hangman screenshot">
+                    </div>
+                    <div class="project-two">
+                        <p>Python Terminal App:</p>
+                        <p>Freecell Solitaire</p>
+                        <img src="/img/freecell.png" alt="freecell solitaire">
+                    </div>
+                </section>
+        
+            <div class="divider">
+                
+            </div>
+        
+            <section id="contact" class="frame">
+                
+                <img src="/img/mycontact.svg" alt="contact logo" class="page-logo">
+                         
+                <div class="social-media-icons">
+                    <a href="https://www.linkedin.com/in/maurice-yong-414757b2/"><img src="/icon/linkedin-icon.svg" alt="linkedin icon"></a>
+                    <a href="https://codepen.io/Snikeron/"><img src="/icon/codepen-icon.svg" alt="codepen icon"></a>
+                    <a href="https://github.com/Snikeron"><img src="/icon/github-icon.svg" alt="github icon"></a>
+                    <a href="https://www.facebook.com/maurice.yong"><img src="/icon/fb-icon.svg" alt="facebook icon"></a>
+                    <a href="https://twitter.com/_MauriceYong"><img src="/icon/twitter-icon.svg" alt="twitter icon"></a>
+                </div>
+
+                <div id="form-main">
+                    <div id="form-div">
+                        <form class="form" id="form1" name="contact" method="POST" netlify>
+                        
+                        <p class="name">
+                            <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
+                        </p>
+                        
+                        <p class="email">
+                            <input name="email" type="email" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
+                        </p>
+                        
+                        <p class="text">
+                            <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Comment"></textarea>
+                        </p>
+                        
+                        
+                        <div class="submit">
+                            <input type="submit" value="SEND" id="button-green"/>
+                            <div class="ease"></div>
+                        </div>
+                        </form>
+                    </div>
+            </section>
+			
+        <footer>
+            Maurice Yong &copy; 2018
+            <div class="attribution">Icons made by Freepik from www.flaticon.com is licensed by CC 3.0 </div>
+        </footer>
+		
+	</body>
+</html>

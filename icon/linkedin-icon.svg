@@ -1,0 +1,35 @@
+<svg width="40" height="40" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>linkedin-icon</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-933 1680)">
+<g id="linkedin-icon">
+<g id="Rectangle 3">
+<use xlink:href="#path0_fill" transform="translate(933 -1680)" fill="#00315F"/>
+<mask id="mask0_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="translate(933 -1680)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path1_stroke_2x" transform="translate(933 -1680)" fill="#00315F"/>
+</g>
+</g>
+<g id="if_social-linkedin_216394">
+<g id="Group">
+<g id="Vector">
+<use xlink:href="#path2_fill" transform="translate(938.7 -1666.4)" fill="#FEFEFF"/>
+</g>
+</g>
+<g id="Group">
+<g id="Vector">
+<use xlink:href="#path3_fill" transform="translate(938.6 -1674.4)" fill="#FEFEFF"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 0 0L 40 0L 40 40L 0 40L 0 0Z"/>
+<path id="path1_stroke_2x" d="M 0 0L 0 -3L -3 -3L -3 0L 0 0ZM 40 0L 43 0L 43 -3L 40 -3L 40 0ZM 40 40L 40 43L 43 43L 43 40L 40 40ZM 0 40L -3 40L -3 43L 0 43L 0 40ZM 0 3L 40 3L 40 -3L 0 -3L 0 3ZM 37 0L 37 40L 43 40L 43 0L 37 0ZM 40 37L 0 37L 0 43L 40 43L 40 37ZM 3 40L 3 0L -3 0L -3 40L 3 40Z"/>
+<path id="path2_fill" d="M 5.97866 20L 0 20L 0 0L 5.97866 0L 5.97866 20ZM 27.9004 20L 21.9217 20L 21.9217 9.31601C 21.9217 6.53201 20.9333 5.14601 18.9743 5.14601C 17.4218 5.14601 16.4373 5.92201 15.9431 7.47601C 15.9431 10 15.9431 20 15.9431 20L 9.96443 20C 9.96443 20 10.0441 2 9.96443 0L 14.6836 0L 15.0483 4.00001L 15.1718 4.00001C 16.3975 2 18.3565 0.644 21.0429 0.644C 23.0856 0.644 24.7377 1.214 25.9992 2.646C 27.2687 4.08001 27.9004 6.00401 27.9004 8.70601L 27.9004 20Z"/>
+<path id="path3_fill" d="M 3.08897 6.00001C 4.79496 6.00001 6.17794 4.65686 6.17794 3C 6.17794 1.34315 4.79496 0 3.08897 0C 1.38298 0 0 1.34315 0 3C 0 4.65686 1.38298 6.00001 3.08897 6.00001Z"/>
+</defs>
+</svg>

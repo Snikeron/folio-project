@@ -1,0 +1,27 @@
+<svg width="40" height="40" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>fb-icon</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-1089 1680)">
+<g id="fb-icon">
+<g id="Rectangle 3">
+<use xlink:href="#path0_fill" transform="translate(1089 -1680)" fill="#00315F"/>
+<mask id="mask0_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="translate(1089 -1680)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path1_stroke_2x" transform="translate(1089 -1680)" fill="#00315F"/>
+</g>
+</g>
+<g id="facebook-f">
+<g id="Vector">
+<use xlink:href="#path2_fill" transform="translate(1103 -1673)" fill="#FEFEFF"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 0 0L 40 0L 40 40L 0 40L 0 0Z"/>
+<path id="path1_stroke_2x" d="M 0 0L 0 -3L -3 -3L -3 0L 0 0ZM 40 0L 43 0L 43 -3L 40 -3L 40 0ZM 40 40L 40 43L 43 43L 43 40L 40 40ZM 0 40L -3 40L -3 43L 0 43L 0 40ZM 0 3L 40 3L 40 -3L 0 -3L 0 3ZM 37 0L 37 40L 43 40L 43 0L 37 0ZM 40 37L 0 37L 0 43L 40 43L 40 37ZM 3 40L 3 0L -3 0L -3 40L 3 40Z"/>
+<path id="path2_fill" d="M 3.74512 25L 3.74512 13.8184L 0 13.8184L 0 9.375L 3.74512 9.375L 3.74512 5.87402C 3.74512 2.07031 6.06934 0 9.46289 0C 11.0889 0 12.4854 0.12207 12.8906 0.175781L 12.8906 4.15039L 10.5371 4.15039C 8.69141 4.15039 8.33496 5.0293 8.33496 6.31348L 8.33496 9.375L 12.5 9.375L 11.9287 13.8184L 8.33496 13.8184L 8.33496 25"/>
+</defs>
+</svg>
