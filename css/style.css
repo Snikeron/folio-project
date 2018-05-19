@@ -148,6 +148,10 @@ footer .attribution {
 	padding: 15px;
 }
 
+#work {
+	height: auto;
+}
+
 @media (min-width: 510px) {
 	.frame {
 		font-size: 20px;
